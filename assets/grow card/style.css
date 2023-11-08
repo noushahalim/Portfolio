@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(70, 70, 70);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cards{
+    display: flex;
+}
+.card1{
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 250px;
+    height: 170px;
+}
+.card1:hover .card1-1{
+    transform: translateY(-100px);
+    background-color: white;
+    box-shadow: inset 50px 0 50px violet,inset -50px 0 50px rgb(36, 204, 255),inset 100px 0 100px blueviolet,inset -100px 0 100px blueviolet;
+}
+.card1:hover .card1-1 h3{
+    color: white;
+}
+.card1:hover .card1-1 i{
+    color: white;
+}
+.card1-1{
+    width: 250px;
+    height: 170px;
+    background-color: rgb(53, 53, 53);
+    top: 170px;
+    position: relative;
+    transition: 400ms ease-out;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card1-2{
+    width: 250px;
+    height: 170px;
+    background-color: white;
+    transition: 400ms ease-out;
+    position: absolute;
+    box-shadow: 0 10px 20px 2px;
+}
+.card1:hover .card1-2{
+    transform: translateY(70px);
+}
+h3{
+    background: none;
+    color: gray;
+}
+i{
+    background: none;
+    color: gray;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+pre{
+    background: none;
+    font-size: 12px;
+}
+p{
+    background: none;
+    font-size: 14px;
+    margin-left: 20px;
+    border: 1px dashed;
+    width: 80px;
+    padding-left: 5px;
+}
+.card2{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 250px;
+    height: 170px;
+}
+.card2:hover .card2-1{
+    transform: translateY(-100px);
+    background-color: white;
+    box-shadow: inset 50px 0 50px violet,inset -50px 0 50px rgb(36, 204, 255),inset 100px 0 100px blueviolet,inset -100px 0 100px blueviolet;
+}
+.card2:hover .card2-1 h3{
+    color: white;
+}
+.card2:hover .card2-1 i{
+    color: white;
+}
+.card2-1{
+    width: 250px;
+    height: 170px;
+    background-color: rgb(53, 53, 53);
+    top: 170px;
+    position: relative;
+    transition: 400ms ease-out;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card2-2{
+    width: 250px;
+    height: 170px;
+    background-color: white;
+    transition: 400ms ease-out;
+    position: absolute;
+    box-shadow: 0 10px 20px 2px;
+}
+.card2:hover .card2-2{
+    transform: translateY(70px);
+}
+
+.card3{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 250px;
+    height: 170px;
+}
+.card3:hover .card3-1{
+    transform: translateY(-100px);
+    background-color: white;
+    box-shadow: inset 50px 0 50px violet,inset -50px 0 50px rgb(36, 204, 255),inset 100px 0 100px blueviolet,inset -100px 0 100px blueviolet;
+}
+.card3:hover .card3-1 h3{
+    color: white;
+}
+.card3:hover .card3-1 i{
+    color: white;
+}
+.card3-1{
+    width: 250px;
+    height: 170px;
+    background-color: rgb(53, 53, 53);
+    top: 170px;
+    position: relative;
+    transition: 400ms ease-out;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card3-2{
+    width: 250px;
+    height: 170px;
+    background-color: white;
+    transition: 400ms ease-out;
+    position: absolute;
+    box-shadow: 0 10px 20px 2px;
+}
+.card3:hover .card3-2{
+    transform: translateY(70px);
+}

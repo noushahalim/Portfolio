@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.top{
+    /* border: 1px solid black; */
+    height: 45px;
+    background-color: rgb(233, 233, 233);
+    width: 1366px;
+    display: flex;
+    padding-top: 10px;
+}
+.fa-whatsapp{
+    font-size: 30px;
+    color: green;
+    padding-left: 10px;
+}
+.name-1{
+    padding-left: 25px;
+    font-size: 20px;
+}
+.span1{
+    margin-left: 1102px;
+}
+.fa-minus{
+    font-size: 20px;
+}
+.fa-window-restore{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.fa-xmark{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.main-body{
+    display: flex;
+}
+.left{
+    /* border: 1px solid black; */
+    width: 55px;
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+    height: 644px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.mini-profile{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.fa-gear{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.fa-box-archive{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.fa-star{
+    font-size: 20px;
+    padding-top: 348px;
+}
+.fa-circle-notch{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.phone-1{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.fa-message{
+    font-size: 20px;
+    padding-top: 10px;
+    background-color: rgb(179, 178, 178);
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+}
+.center{
+    border: 1px solid rgb(168, 168, 168);
+    padding-left: 10px;
+    border-radius: 7px;
+    border-right: hidden;
+    border-bottom: hidden;
+    padding-top: 10px;
+    width: 400px;
+}
+.big-profile{
+    font-size: 50px;
+    padding-top: 15px;
+    color: rgb(20, 175, 20);
+}
+.name{
+    padding-left: 10px;
+}
+.search-1{
+    height: 28px;
+    width: 240px;
+    border: 1px solid;
+    border-color: rgb(238, 238, 238);
+    border-bottom-color: green;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.glass-1{
+    padding-left: 25px;
+    font-size: 20px;
+    color: rgb(163, 163, 163);
+}
+.fa-bars-staggered{
+    font-size: 20px;
+    padding-right: 5px;
+}
+.name-2{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+.right-1{
+    border: 1px solid rgb(168, 168, 168);
+    width: 936px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.right-2{
+    border: 1px solid rgb(168, 168, 168);
+    border-right: hidden;
+    border-top: hidden;
+}
+.right-3{
+    border: 1px solid rgb(168, 168, 168);
+    height: 50px;
+    border-top: hidden;
+    width: 936px;
+    display: flex;
+    align-items: center;
+}
+.fa-microphone{
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.search-2{
+    width: 810px;
+    border: none;
+    height: 30px;
+    padding-left: 30px;
+}
+.fa-paperclip{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+.fa-face-smile{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.image{
+    width: 931px;
+    height: 548px;
+}
+.glass-2{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.phone-2{
+    font-size: 20px;
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 5px;
+    width: 40px;
+    height: 32px;
+    padding-top: 5px;
+    text-align: center;
+}
+.fa-video{
+    font-size: 20px;
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 5px;
+    width: 40px;
+    height: 32px;
+    padding-top: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+.span4{
+    margin-left: 605px;
+}
+.name-3{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 900
+}
+.mid-profile{
+    font-size: 30px;
+    padding-left: 10px;
+    color: blueviolet;
+}
+.selected{
+    background-color: rgb(199, 197, 197);
+    width: 300px;
+    border-radius: 5px;
+    height: 80px;
+    margin-top: 20px;
+}

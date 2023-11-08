@@ -1,0 +1,96 @@
+*{
+    background-color: rgb(242,195,145);
+}
+.owl-body{
+    width: 150px;
+    height: 180px;
+    position: absolute;
+    left: 550px;
+    top: 250px;
+    background-color: rgb(59,35,20);
+    border-radius: 50%;
+}
+.owl-body::before{
+    content: "";
+    width: 110px;
+    height: 180px;
+    position: absolute;
+    left: 20px;
+    border-radius: 50%;
+    background-color: rgb(157,135,117);
+}
+.owl-body::after{
+    content: "";
+    width: 80px;
+    height: 180px;
+    position: absolute;
+    left: 35px;
+    border-radius: 50%;
+    background-color: rgb(182, 164, 149);
+}
+.owl-body i{
+    width: 8px;
+    height: 18px;
+    border-radius: 30%;
+    background-color: rgb(243,121,32);
+    position: absolute;
+    left: 43px;
+    top: 165px;
+    box-shadow: 56px 0 rgb(243,121,32), 62px 0 rgb(243,121,32) ,-7px 0 rgb(243,121,32);
+}
+.owl-body i::before{
+    content: "";
+    width: 8px;
+    height: 21px;
+    border-radius: 30%;
+    background-color: rgb(243,121,32);
+    position: absolute;
+    left: 7px;
+    box-shadow: 42px 0 rgb(243,121,32);
+    z-index: 4;
+}
+.owl-head{
+    width: 150px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(157,135,117);
+    left: 550px;
+    top: 190px;
+    z-index: 1;
+}
+.owl-head::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 65px;
+    top: 85px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(243,121,32);
+}
+.owl-head::after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 10px;
+    top: 6px;
+    border-bottom: px solid rgb(157,135,117);
+    border-right: 65px solid rgb(157,135,117);
+    border-top: 65px solid transparent;
+    border-left: 65px solid rgb(157,135,117);
+}
+.eye{
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    border-radius: 100%;
+    left: 450px;
+    top: 210px;
+    z-index: 1;
+    box-shadow: 187px -6px 0 -29px white , 116px -6px 0 -29px white , 168px 16px 0 -25px white , 97px 16px 0 -25px white , 178px 7px 0 -17px rgb(59,35,20) , 106px 7px 0 -17px rgb(59,35,20) , 178px 7px 0 -12px rgb(99, 59, 23) , 106px 7px 0 -12px rgb(99, 59, 23) , 106px 7px 0 -4px rgb(59,35,20), 177px 7px 0 -4px rgb(59,35,20), 106px 7px white, 177px 7px white;
+}

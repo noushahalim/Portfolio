@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 245px;
+    border: 1px solid rgb(156, 156, 156);
+    height: 689.4px;
+    font-size: 20px;
+    padding-left: 30px;
+    border-top: hidden;
+    border-left: hidden;
+    border-bottom: hidden;
+}
+.last{
+    padding-bottom: 30px;
+}
+.profile-mini{
+    border-radius: 100px;
+    width: 30px;
+    margin-right: 10px;
+}
+.icon{
+    padding-right: 10px
+}
+.instagram{
+    width: 120px;
+    padding-top: 30px;
+}
+.center{
+    padding-left: 130px;
+    padding-top: 40px;
+    padding-right: 130px;
+}
+.story{
+    width: 70px;
+    padding-left: 5px;
+}
+.bluetick{
+    width: 30px;
+    padding-left: 10px;
+}
+.fa-ellipsis{
+    margin-left: 325px;
+}
+.vijay-profile{
+    border-radius: 100px;
+    width: 40px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.vijay{
+    width: 500px;
+}
+.profile-big{
+    border-radius: 100px;
+    width: 50px;
+}
+.center-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.vijay-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+}
+.right{
+    padding-top: 40px;
+    padding-left: 20px;
+}

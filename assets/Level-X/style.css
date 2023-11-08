@@ -1,0 +1,724 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: inter;
+}
+.logo1{
+    width: 100px;
+    margin-left: 46vw;
+    margin-top: 3vh;
+}
+.first{
+    background-image: url(backround.jpg);
+    background-size:2200px;
+    width: 100%;
+    height: 880px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title-1{
+    color: rgb(36,42,84);
+    font-size: 70px;
+}
+.title-4{
+    color: rgb(36,42,84);
+    font-size: 70px;
+}
+.title-4::after{
+    content: "Flutter Developer";
+
+    animation: domain 8s ease infinite;
+}
+@keyframes domain{
+    10%{
+        filter: blur(10px);
+        letter-spacing: -2rem;
+    }
+    20%{
+        content: "Angular Developer";
+        filter: blur(0);
+        letter-spacing: 2px;
+    }
+    30%{
+        filter: blur(10px);
+        letter-spacing: -2rem;
+    }
+    40%{
+        content: "React Developer";
+        filter: blur(0);
+        letter-spacing: 2px;
+    }
+    50%{
+        filter: blur(10px);
+        letter-spacing: -2rem;
+    }
+    60%{
+        content: "Full-Stack Developer";
+        filter: blur(0);
+        letter-spacing: 2px;
+    }
+    70%{
+        filter: blur(10px);
+        letter-spacing: -2rem;
+    }
+    80%{
+        content: "Angular Developer";
+        filter: blur(0);
+        letter-spacing: 2px;
+    }
+    90%{
+        filter: blur(10px);
+        letter-spacing: -2rem;
+    }
+    100%{
+        content: "Angular Developer";
+        filter: blur(0);
+        letter-spacing: 2px;
+    }
+}
+.title-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.title-3{
+    color: rgb(6,138,155); 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px; 
+    font-weight: 700;
+}
+.date1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 22px; 
+    background-color: rgb(246,177,75); 
+    height: 35px; 
+    text-align: center; 
+    padding-top: 15px;
+}
+.date2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 22px; 
+    text-align: center; 
+    padding-top: 15px;
+}
+.flutter{
+    display: flex;
+    background-color: rgb(36,42,84);
+    margin-left: 17vw;
+    margin-top: 13vh;
+    width: 65vw;
+    height: 34vh;
+    border-radius: 10px;
+}
+.flutter-1{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    margin-top: 70px;
+    margin-left: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.flutter-2{
+    margin-left: 40px;
+    margin-top: 20px;
+    color: white;
+}
+.flutter-head{
+    font-size: 30px;
+    padding-top: 5px;
+}
+.flutter-det{
+    padding-top: 20px;
+}
+.flutter-icons{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: orange;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.flutter-3{
+    margin-left: 280px;
+    margin-top: 100px;
+}
+.apply-now{
+    background-color: orange;
+    width: 120px;
+    height: 35px;
+    border: hidden;
+    border-radius: 5px;
+}
+.hr{
+    width: 1000px;
+    margin-left: 200px;
+    margin-bottom: 120px;
+}
+.head-1{
+    color: rgb(36,42,84);
+    font-size: 70px;
+}
+.head-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.padding{
+    padding-bottom: 20px;
+}
+.top1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    gap: 35px;
+    margin-left: 60px;
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+.card-1{
+    background-color: rgb(180,237,248);
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 270px;
+    height: 370px;
+    border-radius: 15px;
+}
+.card-2{
+    background-color: rgb(251,221,177);
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 270px;
+    height: 370px;
+    border-radius: 15px;
+}
+.card-3{
+    background-color: rgb(167,243,208);
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 270px;
+    height: 370px;
+    border-radius: 15px;
+}
+.card-4{
+    background-color: rgb(216,180,254);
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 270px;
+    height: 370px;
+    border-radius: 15px;
+}
+.card-icons{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(58, 58, 58);
+}
+.hr2{
+    width: 250px;
+    margin-bottom: 20px;
+}
+.head-3{
+    color: rgb(36,42,84);
+    padding-bottom: 20px;
+}
+.card-det{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-stretch: ultra-expanded;
+}
+.head-4{
+    color: rgb(36,42,84);
+    font-size: 50px;
+}
+.third{
+    background-color: rgb(180,237,248);
+    margin-left: 35px;
+    margin-right: 35px;
+    height: 500px;
+    border-radius: 25px;
+}
+.third-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.padding-2{
+    padding-top: 70px;
+}
+.third-bottom{
+    margin-top: 120px;
+    margin-left: 40px;
+}
+.third-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.head-5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: rgb(36,42,84);
+}
+.third-des{
+    display: flex;
+}
+.rect{
+    width: 50px;
+    height: 100px;
+    border: 1px dashed rgb(36,42,84);
+    border-right: hidden;
+    border-bottom: hidden;
+    position: relative;
+    top: -80px;
+    left: 60px;
+}
+.circ{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(36,42,84);
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    position: relative;
+    top: -200px;
+    left: 40px;
+}
+.two{
+    margin-left: 150px;
+}
+.three{
+    margin-left: 170px;
+}
+.four{
+    margin-left: 150px;
+}   
+.five{
+    margin-left: 190px;
+}
+.fourth{
+    margin: 144px 34.5px;
+	max-width: 1280px;
+	padding: 24px;
+}
+.fourth-1-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}       
+.fourth-1-head h1{
+    color: rgb(36,42,84);
+    font-size: 48px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 48px;
+}
+.fourth-1-text{
+    display: flex;
+    justify-content: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.fourth-1-text-in{
+    padding: 48px 24px;
+}
+.fourth-1-text-in-head{
+    color: #242A54;
+	font-family: Inter;
+	font-size: 24px;
+	font-weight: 600;
+    text-align: left;
+    line-height: 32px;
+    margin-bottom: 12px;
+}
+.fourth-1-text-in-text{
+    font-family: Inter;
+	font-size: 14px;
+	letter-spacing: 0.2506px;
+	line-height: 20px;
+	margin: 0px 0px 12px;
+	text-align: left;
+}
+.fourth-1-text-line{
+    width: 50px;
+    border-left: 1px dashed;
+}
+.fourth-2{
+    display: flex;
+    gap: 128px;
+    margin: 64px;
+}
+.fourth-2-1{
+    background-color: rgb(225,248,252);
+    width: 488px;
+    padding-top: 50px;
+    padding-left: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.four-head-1{
+    color: rgb(6,138,155);
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+.feb-2023{
+    background-color: white;
+    width: 135px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 7px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+.four-head-2{
+    color: #242A54;
+	font-size: 36px;
+	font-weight: 600;
+	margin: 12px 0px 20px;
+}
+.feb1{
+    background-color: rgb(246,177,75);
+    width: 50px;
+    padding-left: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.year{
+    margin-left: 10px;
+}
+.fourth-2-2{
+    background-color: rgb(253,242,224);
+    width: 488px;
+    padding-top: 50px;
+    padding-left: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.icon-text{
+    display: flex;
+}
+.calendar{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    color: #242A54;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px;
+    margin-right: 10px;
+}
+.gra-cap{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    color: #242A54;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.course1{
+    color: rgb(6,138,155);
+	font-size: 20px;
+	font-weight: 600;
+    margin: 15px 0px 15px;
+}
+.text1{
+    color: #242A54;
+    font-size: 14px;
+    word-spacing: 2px;
+}
+.img1{
+    width: 25px;
+    background-color: white;
+	border-radius: 100%;
+	box-shadow: #FFFFFF 0px 0px 0px 0px, #E1F8FC 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+	overflow: clip;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.img2{
+    width: 25px;
+    background-color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 100%;
+    box-shadow: #FFFFFF 0px 0px 0px 0px, #E1F8FC 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+	overflow: clip;
+}
+.img3{
+    width: 38px;
+    border-radius: 100%;
+    box-shadow: #FFFFFF 0px 0px 0px 0px, #E1F8FC 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+	overflow: clip;
+}
+.img4{
+    width: 15px;
+    background-color: white;
+    border-radius: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    box-shadow: #FFFFFF 0px 0px 0px 0px, #E1F8FC 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+	overflow: clip;
+}
+.img5{
+    width: 30px;
+    background-color: white;
+    border-radius: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-shadow: #FFFFFF 0px 0px 0px 0px, #FDF2E0 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    overflow: clip;
+}
+.img6{
+    width: 38px;
+    border-radius: 100%;
+    box-shadow: #FFFFFF 0px 0px 0px 0px, #FDF2E0 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+	overflow: clip;
+}
+.img7{
+    width: 15px;
+    background-color: white;
+    border-radius: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    box-shadow: #FFFFFF 0px 0px 0px 0px, #FDF2E0 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+	overflow: clip;
+}
+.images{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.images-img{
+    display: flex;
+}
+.join{
+    display: flex;
+    align-items: center;
+    background-color: rgb(82,213,237);
+    position: relative;
+    width: 538px;
+    height: 60px;
+    left: -50px;
+}
+.join p{
+    margin-left: 100px;
+
+}
+.join2{
+    display: flex;
+    align-items: center;
+    background-color: rgb(246,177,75);
+    position: relative;
+    width: 538px;
+    height: 60px;
+    left: -50px;
+}
+.join2 p{
+    margin-left: 100px;
+
+}
+.fa-arrow-right{
+    padding-left: 30px;
+    font-size: 20px;
+    color: rgb(38,48,90);
+}
+.four-head-1-2{
+    color: rgb(242,145,0);
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+.fifth{
+    margin: 24px 34.5px 96px;
+	max-width: 1280px;
+	padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fifth-head{
+    color: rgb(36,42,84);
+    font-size: 48px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+.fifth-head2{
+    font-size: 20px;
+	font-weight: 100;
+    margin-bottom: 48px;
+}
+.fifth-text{
+    border: 2px solid rgb(232,234,241);
+    border-radius: 16px;
+    padding: 0px 24px;
+    color: #242A54;
+    font-size: 20px;
+	font-weight: 700;
+    width: 800px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.sixth{
+    background-color: rgb(23,195,226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.sixth-head{
+    color: rgb(36,42,84);
+    font-size: 48px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 48px;
+}
+.sixth-head2{
+    color: rgb(36,42,84);
+    font-size: 48px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 30px;
+}
+.sixth-text{
+    font-size: 20px;
+	font-weight: 100;
+    margin-bottom: 5px;
+}
+.chatwithus{
+    border: 2px solid rgb(36,42,84);
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.chat-text{
+    font-size: 14px;
+	font-weight: 500;
+    color: white;
+    margin-left: 10px;
+    margin-right: 20px;
+    position: relative;
+    top: -3px;
+}
+.chat-icon{
+    font-size: 25px;
+    margin-left: 20px;
+    color: black;
+}
+.seventh{
+    background-color: rgb(36,42,84);
+    display: flex;
+}
+.levelx-logo{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.seventh1{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.seventh2{
+    color: rgb(195, 214, 221);
+    font-size: 14px;
+    margin-bottom: 50px;
+    line-height: 20px;
+}
+.seventh3{
+    color: rgb(195, 214, 221);
+    margin-bottom: 50px;
+    font-size: 14px;
+}
+.seventh4{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.seventh5{
+    color: white;
+    font-size: 20px;
+	font-weight: 600;
+    margin-bottom: 30px;
+}
+.seventhdiv{
+    display: flex;
+}
+.seventhdiv2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.seventh6{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.phone{
+    color: white;
+    transform: rotate(10deg);
+    margin-right: 10px;
+}
+.mail{
+    color: white;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.seventhspan1{
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+}
+.seventhspan2{
+    text-decoration: none;
+    color: white;
+}
+.seventh7{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.seventh8{
+    color: white;
+    font-size: 20px;
+	font-weight: 600;
+    margin-bottom: 15px;
+}
+.seventh9{
+    font-size: 22px;
+    margin-left: 10px;
+    color: white;
+}

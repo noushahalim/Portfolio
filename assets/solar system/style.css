@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background5.jpg);
+    background-size: cover;
+    position: fixed;
+}
+.way{
+    border: 2px solid rgb(100, 100, 100);
+    border-radius: 100%;
+    transform: rotate3d(2,0,-1,70deg);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Neptuneway{
+    width: 1000px;
+    height: 1000px;
+    left: 200px;
+    top: -195px;
+}
+.Neptune{
+    width: 50px;
+    height: 50px;
+    background-image: url(images/neptune.png);
+    background-size: cover;
+    animation: nep 10s linear infinite;
+}
+@keyframes nep{
+    0%{
+        transform: rotate(10deg) translate(500px);
+    }
+    100%{
+        transform: rotate(370deg) translate(500px);
+    }
+}
+.Uranusway{
+    width: 900px;
+    height: 900px;
+    left: 250px;
+    top: -150px;
+}
+.Uranus{
+    width: 55px;
+    height: 55px;
+    background-image: url(images/uranus.png);
+    background-size: cover;
+    animation: ura 10s linear infinite;
+}
+@keyframes ura{
+    0%{
+        transform: rotate(30deg) translate(450px);
+    }
+    100%{
+        transform: rotate(390deg) translate(450px);
+    }
+}
+.Saturnway{
+    width: 800px;
+    height: 800px;
+    left: 300px;
+    top: -100px;
+}
+.Saturn{
+    width: 60px;
+    height: 60px;
+    background-image: url(images/saturn.png);
+    background-size: cover;
+    animation: sat 11s linear infinite;
+}
+@keyframes sat{
+    0%{
+        transform: rotate(50deg) translate(400px);
+    }
+    100%{
+        transform: rotate(410deg) translate(400px);
+    }
+}
+.Jupiterway{
+    width: 700px;
+    height: 700px;
+    left: 350px;
+    top: -50px;
+}
+.Jupiter{
+    width: 65px;
+    height: 65px;
+    background-image: url(images/jupiter.png);
+    background-size: cover;
+    animation: jup 9s linear infinite;
+}
+@keyframes jup{
+    0%{
+        transform: rotate(0deg) translate(350px);
+    }
+    100%{
+        transform: rotate(360deg) translate(350px);
+    }
+}
+.Marsway{
+    width: 600px;
+    height: 600px;
+    left: 400px;
+    top: 0px;
+}
+.Mars{
+    width: 35px;
+    height: 35px;
+    background-image: url(images/mars.png);
+    background-size: cover;
+    animation: mar 11s linear infinite;
+}
+@keyframes mar{
+    0%{
+        transform: rotate(60deg) translate(300px);
+    }
+    100%{
+        transform: rotate(420deg) translate(300px);
+    }
+}
+.Earthway{
+    width: 500px;
+    height: 500px;
+    left: 450px;
+    top: 50px;
+}
+.Earth{
+    width: 45px;
+    height: 45px;
+    background-image: url(images/earth.png);
+    background-size: cover;
+    animation: eart 8s linear infinite;
+}
+@keyframes eart{
+    0%{
+        transform: rotate(10deg) translate(250px);
+    }
+    100%{
+        transform: rotate(370deg) translate(250px);
+    }
+}
+.Venusway{
+    width: 400px;
+    height: 400px;
+    left: 500px;
+    top: 100px;
+}
+.Venus{
+    width: 40px;
+    height: 40px;
+    background-image: url(images/venus.png);
+    background-size: cover;
+    animation: ven 9s linear infinite;
+}
+@keyframes ven{
+    0%{
+        transform: rotate(60deg) translate(200px);
+    }
+    100%{
+        transform: rotate(420deg) translate(200px);
+    }
+}
+.Mercuryway{
+    width: 300px;
+    height: 300px;
+    left: 550px;
+    top: 150px;
+}
+.Mercury{
+    width: 30px;
+    height: 30px;
+    background-image: url(images/mercury.png);
+    background-size: cover;
+    animation: merc 7s linear infinite;
+}
+@keyframes merc{
+    0% {
+        transform: rotate(10deg) translate(150px);
+    }
+    
+    100% {
+        transform: rotate(370deg) translate(150px);
+    }
+}
+.Sun{
+    width: 200px;
+    height: 200px;
+    background-image: url(images/sun.png);
+    background-size: cover;
+    position: absolute;
+    top: 185px;
+    left: 600px;
+}

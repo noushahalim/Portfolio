@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main-body{
+    display: flex;
+}
+.left-table{
+    text-align: left;
+    /* border: 1px solid rgb(156, 156, 156); */
+    height: 685px;
+    width: 350px;
+    padding-top: 20px;
+}
+.right-table{
+    border: 1px solid rgb(156, 156, 156);
+    border-top: hidden;
+    border-right: hidden;
+    border-bottom: hidden;
+    width: 1010px;
+}
+.right-name{
+    text-align: left;
+    padding-left: 10px;
+    /* padding-top: 10px; */
+}
+.blue{
+    color: rgb(82, 43, 221);
+}
+.span1{
+    margin-left: 890px;
+}
+.fa-ellipsis-vertical{
+    padding-right: 20px;
+    color: rgb(121, 121, 121);
+    font-size: 25px;
+}
+.fa-phone{
+    padding-right: 15px;
+    padding-left: 15px;
+    color: rgb(121, 121, 121);
+    font-size: 25px;
+}
+.right-1{
+    border: 1px solid rgb(156, 156, 156);
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    height: 60px;
+}
+/* .right-2{
+    border: 1px solid black;
+} */
+.backgroundimage{
+    width: 1010px;
+    height: 555px;
+}
+.right-3{
+    /* border: 1px solid black; */
+    height: 40px;
+    padding-top: 15px;
+}
+.fa-paperclip{
+    padding-left: 10px;
+    color: rgb(121, 121, 121);
+    font-size: 25px;
+}
+.fa-bars{
+    padding-left: 20px;
+    font-size: 25px;
+    color: rgb(121, 121, 121);
+}
+.search{
+    height: 35px;
+    background-color: rgb(219, 219, 219);
+    border: none;
+    width: 280px;
+    margin-left: 10px;
+    padding-left: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.fa-circle-user{
+    padding-left: 10px;
+    font-size: 40px;
+    color: rgb(35, 173, 69)
+}
+.name{
+    padding-left: 20px;
+}
+.fa-magnifying-glass{
+    color: rgb(121, 121, 121);
+    font-size: 25px;
+}
+.fa-face-smile{
+    color: rgb(121, 121, 121);
+    font-size: 25px;
+    padding-left: 15px;
+}
+.fa-microphone{
+    color: rgb(121, 121, 121);
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.search2{
+    height: 35px;
+    background-color: rgb(233, 233, 233);
+    border: none;
+    border-radius: 5px;
+    width: 861px;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+.selected{
+    background-color: rgb(127, 215, 250);
+    border-radius: 5px;
+}
+.profile{
+    font-size: 40px;
+    padding-bottom: 20px;
+    vertical-align: middle;
+}
+.name{
+    font-size: 20px;
+    /* padding-bottom: 20px; */
+}
